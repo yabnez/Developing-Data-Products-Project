@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput("sliderMonth", "Choose month, or zero for all month", 0, 12, value = 0),
-      selectInput("selectVF", "Select both/vegitable/fruit", c("both"="both", "vegitable"="vegi","fruit"="fruit")),
+      selectInput("selectVF", "Select both/vegetable/fruit", c("both"="both", "vegetable"="vege","fruit"="fruit")),
       selectInput("selectPL", "Select all or other specific region", 
                   c("all"="all", "domestic"="domestic","import"="import",
                     "Kyoto"="kyoto", "USA"="USA", "China"="china")),
