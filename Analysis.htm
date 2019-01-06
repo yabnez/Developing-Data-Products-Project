@@ -1,0 +1,78 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0022)http://127.0.0.1:6364/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+   
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">   
+<SCRIPT type="application/shiny-singletons"></SCRIPT>
+   
+<SCRIPT type="application/html-dependencies">json2[2014.02.04];jquery[1.12.4];shiny[1.2.0];ionrangeslider[2.1.6];strftime[0.9.2];selectize[0.11.2];bootstrap[3.3.7]</SCRIPT>
+ 
+<SCRIPT src="Analysis.files/json2-min.js"></SCRIPT>
+ 
+<SCRIPT src="Analysis.files/jquery.min.js"></SCRIPT>
+ <LINK href="Analysis.files/shiny.css" rel="stylesheet"> 
+<SCRIPT src="Analysis.files/shiny.min.js"></SCRIPT>
+ <LINK href="Analysis.files/ion.rangeSlider.css" rel="stylesheet"> <LINK href="Analysis.files/ion.rangeSlider.skinShiny.css" 
+rel="stylesheet"> 
+<SCRIPT src="Analysis.files/ion.rangeSlider.min.js"></SCRIPT>
+ 
+<SCRIPT src="Analysis.files/strftime-min.js"></SCRIPT>
+ <LINK href="Analysis.files/selectize.bootstrap3.css" rel="stylesheet"> <!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]--> 
+<SCRIPT src="Analysis.files/selectize.min.js"></SCRIPT>
+ 
+<META name="viewport" content="width=device-width, initial-scale=1"> <LINK href="Analysis.files/bootstrap.min.css" 
+rel="stylesheet"> 
+<SCRIPT src="Analysis.files/bootstrap.min.js"></SCRIPT>
+ 
+<SCRIPT src="Analysis.files/html5shiv.min.js"></SCRIPT>
+ 
+<SCRIPT src="Analysis.files/respond.min.js"></SCRIPT>
+  <TITLE>Analysis of wholesale market in Kyoto</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY>
+<DIV class="container-fluid">
+<H2>Analysis of wholesale market in Kyoto</H2>
+<DIV class="row">
+<DIV class="col-sm-4">
+<FORM class="well">
+<DIV class="form-group shiny-input-container"><LABEL class="control-label" for="sliderMonth">Choose 
+month, or zero for all month</LABEL>             
+<INPUT class="js-range-slider" id="sliderMonth" data-data-type="number" data-keyboard="true" data-prettify-enabled="true" data-prettify-separator="," data-grid-snap="false" data-grid-num="6" data-grid="true" data-step="1" data-from="0" data-max="12" data-min="0"> 
+          </DIV>
+<DIV class="form-group shiny-input-container"><LABEL class="control-label" for="selectVF">Select 
+both/vegetable/fruit</LABEL>             
+<DIV><SELECT id="selectVF"><OPTION value="both" selected="">both</OPTION> 
+  <OPTION value="vege">vegetable</OPTION> <OPTION 
+value="fruit">fruit</OPTION></SELECT>               
+<SCRIPT type="application/json" data-nonempty="" data-for="selectVF">{}</SCRIPT>
+             </DIV></DIV>
+<DIV class="form-group shiny-input-container"><LABEL class="control-label" for="selectPL">Select 
+all or other specific region</LABEL>             
+<DIV><SELECT id="selectPL"><OPTION value="all" selected="">all</OPTION> 
+  <OPTION value="domestic">domestic</OPTION> <OPTION 
+  value="import">import</OPTION> <OPTION value="kyoto">Kyoto</OPTION> <OPTION 
+  value="USA">USA</OPTION> <OPTION value="china">China</OPTION></SELECT>           
+    
+<SCRIPT type="application/json" data-nonempty="" data-for="selectPL">{}</SCRIPT>
+             </DIV></DIV>
+<DIV class="form-group shiny-input-container">
+<DIV class="checkbox"><LABEL><INPUT id="showModel" type="checkbox" checked="checked"> 
+                <SPAN>Show/Hide Linear Model</SPAN>               </LABEL>       
+      </DIV></DIV>
+<DIV class="form-group shiny-input-container">
+<DIV class="checkbox"><LABEL><INPUT id="showBox" type="checkbox" checked="checked"> 
+                <SPAN>Show/Hide Boxplot</SPAN>               </LABEL>            
+ </DIV></DIV>
+<DIV class="form-group shiny-input-container">
+<DIV class="checkbox"><LABEL><INPUT id="showSum" type="checkbox" checked="checked"> 
+                <SPAN>Show/Hide Linear model summary</SPAN>               
+</LABEL>             </DIV></DIV>
+<DIV class="shiny-text-output" id="stat"></DIV></FORM></DIV>
+<DIV class="col-sm-8">
+<DIV class="shiny-plot-output" id="plot1" 
+style="width: 100%; height: 400px;"></DIV>
+<DIV class="shiny-plot-output" id="plot2" 
+style="width: 100%; height: 400px;"></DIV></DIV></DIV></DIV></BODY></HTML>

@@ -1,0 +1,285 @@
+pre:empty.shiny-text-output::before {
+	content: " ";
+}
+pre:empty.shiny-text-output.noplaceholder {
+	border-width: 0px; margin: 0px; padding: 0px; height: 0px;
+}
+.shiny-image-output img.shiny-scalable {
+	max-height: 100%; max-width: 100%;
+}
+.shiny-plot-output img.shiny-scalable {
+	max-height: 100%; max-width: 100%;
+}
+#shiny-disconnected-overlay {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; position: fixed; z-index: 99998; opacity: 0.5; pointer-events: none; background-color: rgb(153, 153, 153);
+}
+.table.shiny-table > thead > tr > th {
+	padding-right: 12px; padding-left: 12px;
+}
+.table.shiny-table > tbody > tr > th {
+	padding-right: 12px; padding-left: 12px;
+}
+.table.shiny-table > tfoot > tr > th {
+	padding-right: 12px; padding-left: 12px;
+}
+.table.shiny-table > thead > tr > td {
+	padding-right: 12px; padding-left: 12px;
+}
+.table.shiny-table > tbody > tr > td {
+	padding-right: 12px; padding-left: 12px;
+}
+.table.shiny-table > tfoot > tr > td {
+	padding-right: 12px; padding-left: 12px;
+}
+.shiny-table.spacing-xs > thead > tr > th {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-xs > tbody > tr > th {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-xs > tfoot > tr > th {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-xs > thead > tr > td {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-xs > tbody > tr > td {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-xs > tfoot > tr > td {
+	padding-top: 3px; padding-bottom: 3px;
+}
+.shiny-table.spacing-s > thead > tr > th {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-s > tbody > tr > th {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-s > tfoot > tr > th {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-s > thead > tr > td {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-s > tbody > tr > td {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-s > tfoot > tr > td {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.shiny-table.spacing-m > thead > tr > th {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-m > tbody > tr > th {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-m > tfoot > tr > th {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-m > thead > tr > td {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-m > tbody > tr > td {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-m > tfoot > tr > td {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.shiny-table.spacing-l > thead > tr > th {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table.spacing-l > tbody > tr > th {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table.spacing-l > tfoot > tr > th {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table.spacing-l > thead > tr > td {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table.spacing-l > tbody > tr > td {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table.spacing-l > tfoot > tr > td {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.shiny-table .NA {
+	color: rgb(144, 144, 144);
+}
+.shiny-output-error {
+	color: red; white-space: pre-wrap;
+}
+.shiny-output-error::before {
+	font-weight: bold; content: "Error: ";
+}
+.shiny-output-error-validation {
+	color: rgb(136, 136, 136);
+}
+.shiny-output-error-validation::before {
+	font-weight: inherit; content: "";
+}
+.recalculating {
+	transition:opacity 250ms 500ms; opacity: 0.3; -moz-transition: opacity 250ms ease 500ms; -webkit-transition: opacity 250ms ease 500ms; -o-transition: opacity 250ms ease 500ms;
+}
+.slider-animate-container {
+	text-align: right; margin-top: -9px;
+}
+.slider-animate-button {
+	opacity: 0.5;
+}
+.slider-animate-button .pause {
+	display: none;
+}
+.slider-animate-button.playing .pause {
+	display: inline;
+}
+.slider-animate-button .play {
+	display: inline;
+}
+.slider-animate-button.playing .play {
+	display: none;
+}
+.progress.shiny-file-input-progress {
+	visibility: hidden;
+}
+.progress.shiny-file-input-progress .progress-bar.bar-danger {
+	transition:none; -moz-transition: none; -webkit-transition: none; -o-transition: none;
+}
+.shiny-input-container input[type=file] {
+	overflow: hidden; max-width: 100%;
+}
+.shiny-progress-container {
+	top: 0px; width: 100%; position: fixed; z-index: 2000;
+}
+.shiny-progress .progress {
+	margin: 0px; top: 0px; width: 100%; height: 3px; position: absolute;
+}
+.shiny-progress .bar {
+	opacity: 0.6; transition-duration: 250ms;
+}
+.shiny-progress .progress-text {
+	margin: 0px; padding: 2px 3px; width: 240px; height: 24px; right: 10px; position: absolute; opacity: 0.85; background-color: rgb(238, 248, 255);
+}
+.shiny-progress .progress-text .progress-message {
+	padding: 0px 3px; font-size: 90%; font-weight: bold;
+}
+.shiny-progress .progress-text .progress-detail {
+	padding: 0px 3px; font-size: 80%;
+}
+.shiny-progress-notification .progress {
+	height: 10px; margin-bottom: 5px;
+}
+.shiny-progress-notification .progress-text .progress-message {
+	font-size: 90%; font-weight: bold;
+}
+.shiny-progress-notification .progress-text .progress-detail {
+	font-size: 80%;
+}
+.crosshair {
+	cursor: crosshair;
+}
+.grabbable {
+	
+}
+.grabbing {
+	
+}
+.ns-resize {
+	cursor: ns-resize;
+}
+.ew-resize {
+	cursor: ew-resize;
+}
+.nesw-resize {
+	cursor: nesw-resize;
+}
+.nwse-resize {
+	cursor: nwse-resize;
+}
+.qt pre {
+	font-family: monospace !important;
+}
+.qt code {
+	font-family: monospace !important;
+}
+.qt5 .radio input[type='radio'] {
+	margin-top: 0px;
+}
+.qt5 .checkbox input[type='checkbox'] {
+	margin-top: 0px;
+}
+.selectize-control {
+	margin-bottom: 10px;
+}
+.shiny-frame {
+	border: currentColor; border-image: none;
+}
+.shiny-flow-layout > div {
+	width: 220px; padding-right: 12px; vertical-align: top; display: inline-block;
+}
+.shiny-split-layout {
+	width: 100%; white-space: nowrap;
+}
+.shiny-split-layout > div {
+	overflow: auto; vertical-align: top; display: inline-block; box-sizing: border-box;
+}
+.shiny-input-panel {
+	padding: 6px 8px; border-radius: 2px; border: 1px solid rgb(227, 227, 227); border-image: none; margin-top: 6px; margin-bottom: 6px; background-color: rgb(245, 245, 245);
+}
+.shiny-input-checkboxgroup label ~ .shiny-options-group {
+	margin-top: -10px;
+}
+.shiny-input-radiogroup label ~ .shiny-options-group {
+	margin-top: -10px;
+}
+.shiny-input-checkboxgroup.shiny-input-container-inline label ~ .shiny-options-group {
+	margin-top: -1px;
+}
+.shiny-input-radiogroup.shiny-input-container-inline label ~ .shiny-options-group {
+	margin-top: -1px;
+}
+:not(.shiny-input-container-inline).shiny-input-container {
+	width: 300px; max-width: 100%;
+}
+.well .shiny-input-container {
+	width: auto;
+}
+.shiny-input-container > div > select:not(.selectized) {
+	width: 100%;
+}
+#shiny-notification-panel {
+	padding: 2px; width: 250px; right: 0px; bottom: 0px; position: fixed; z-index: 99999; background-color: rgba(0, 0, 0, 0);
+}
+.shiny-notification {
+	margin: 2px; padding: 10px 8px 10px 10px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(51, 51, 51); opacity: 0.85; background-color: rgb(232, 232, 232);
+}
+.shiny-notification-message {
+	border: 1px solid rgb(188, 232, 241); border-image: none; color: rgb(49, 112, 143); background-color: rgb(217, 237, 247);
+}
+.shiny-notification-warning {
+	border: 1px solid rgb(250, 235, 204); border-image: none; color: rgb(138, 109, 59); background-color: rgb(252, 248, 227);
+}
+.shiny-notification-error {
+	border: 1px solid rgb(235, 204, 209); border-image: none; color: rgb(169, 68, 66); background-color: rgb(242, 222, 222);
+}
+.shiny-notification-close {
+	bottom: 9px; color: rgb(68, 68, 68); padding-left: 4px; font-size: 18px; font-weight: bold; float: right; position: relative; cursor: default;
+}
+.shiny-notification-close:hover {
+	color: rgb(0, 0, 0);
+}
+.shiny-notification-content-action a {
+	color: rgb(51, 122, 183); font-weight: bold; text-decoration: underline;
+}
+.shiny-file-input-active {
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);
+}
+.shiny-file-input-over {
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(76,174,76,0.6);
+}
+.datepicker table tbody tr td.disabled {
+	color: rgb(170, 170, 170);
+}
+.datepicker table tbody tr td.disabled:hover {
+	color: rgb(170, 170, 170);
+}
